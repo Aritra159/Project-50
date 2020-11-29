@@ -1,0 +1,55 @@
+h1{
+    color: rgb(184, 12, 12);
+    background-color: aqua;
+}
+.Origami{
+    display: flex;
+    flex-wrap: wrap; 
+   justify-content: space-between;
+}
+
+.OD{
+    display: flex;
+  
+  
+}
+.OD1{
+    margin-left: 800px;
+   
+    display:flex;
+}
+
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    color: white   ;
+    font-style: oblique;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate3d(50%,-50%);
+    opacity: 0;
+}
+
+*{
+    background-color: black;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: #ffffff;
+    position: absolute;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+img:hover{
+    opacity: 0.2;
+}
+
+.now:hover h2{
+        opacity:1 ;
+}
+
+
